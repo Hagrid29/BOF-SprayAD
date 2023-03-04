@@ -24,7 +24,7 @@ alias SprayAD {
         }
         if(@args[$i] iswm "--password"){
 	    $i = $i + 1;
-            $object = @args[$i +1];
+            $object = @args[$i];
         }
         if(@args[$i] iswm "--authservice"){
 	    $i = $i + 1;
